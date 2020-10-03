@@ -8,24 +8,39 @@ function App() {
     <Router>
       <div className="App">
         <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="#home">😻 S + J</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/">
+            <span role="img" aria-label="heart-eyes kitty">
+              😻
+            </span>{" "}
+            S + J
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="#link">Our Story</Nav.Link>
+              <Nav.Link as={Link} to="/our-story">
+                Our Story
+              </Nav.Link>
               <NavDropdown title="Day of" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">
+                <NavDropdown.Item as={Link} to="/itinerary">
                   Itinerary
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item as={Link} to="/dress-code">
                   Dress Code
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Menu</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Location</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/menu">
+                  Menu
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/location">
+                  Location
+                </NavDropdown.Item>
                 {/* <NavDropdown.Divider /> */}
               </NavDropdown>
-              <Nav.Link href="#link">Contact Us</Nav.Link>
-              <Nav.Link href="#link">Gifts</Nav.Link>
+              <Nav.Link as={Link} to="/contact-us">
+                Contact Us
+              </Nav.Link>
+              <Nav.Link as={Link} to="/gifts">
+                Gifts
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -34,11 +49,22 @@ function App() {
             <header className="App-header">
               <h1>Sasha and Jeremiah til Death</h1>
               <p>More info to come...</p>
-              <p>home</p>
             </header>
           </Route>
           <Route path="/our-story">
             <p>Our Story</p>
+          </Route>
+          <Route path="/itinerary">
+            <p>Itinerary</p>
+          </Route>
+          <Route path="/dress-code">
+            <p>Dress Code</p>
+          </Route>
+          <Route path="/menu">
+            <p>Menu</p>
+          </Route>
+          <Route path="/location">
+            <p>Location</p>
           </Route>
           <Route path="/contact-us">
             <p>Contact Us</p>
