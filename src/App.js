@@ -38,8 +38,8 @@ function App() {
               <Nav.Link as={Link} to="/contact-us">
                 Contact Us
               </Nav.Link>
-              <Nav.Link as={Link} to="/gifts">
-                Gifts
+              <Nav.Link as={Link} to="/registry">
+                Registry
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -69,8 +69,8 @@ function App() {
           <Route path="/contact-us">
             <p>Contact Us</p>
           </Route>
-          <Route path="/gifts">
-            <p>Gifts</p>
+          <Route path="/registry">
+            <p>Registry</p>
           </Route>
         </Switch>
       </div>
