@@ -48,7 +48,7 @@ function App() {
           <Route exact path="/">
             <header className="App-header">
               <h1>Sasha and Jeremiah til Death</h1>
-              <p>More info to come...</p>
+              <img src={`${process.env.PUBLIC_URL}/invitation--cropped.png`} />
             </header>
           </Route>
           <Route path="/our-story">
