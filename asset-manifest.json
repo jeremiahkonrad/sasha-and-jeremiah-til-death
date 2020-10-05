@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/sasha-and-jeremiah-til-death/static/css/main.38f3043c.chunk.css",
-    "main.js": "/sasha-and-jeremiah-til-death/static/js/main.bd7fc85d.chunk.js",
-    "main.js.map": "/sasha-and-jeremiah-til-death/static/js/main.bd7fc85d.chunk.js.map",
+    "main.css": "/sasha-and-jeremiah-til-death/static/css/main.64d25985.chunk.css",
+    "main.js": "/sasha-and-jeremiah-til-death/static/js/main.87f66244.chunk.js",
+    "main.js.map": "/sasha-and-jeremiah-til-death/static/js/main.87f66244.chunk.js.map",
     "runtime-main.js": "/sasha-and-jeremiah-til-death/static/js/runtime-main.9922afd6.js",
     "runtime-main.js.map": "/sasha-and-jeremiah-til-death/static/js/runtime-main.9922afd6.js.map",
     "static/js/2.95f1bf56.chunk.js": "/sasha-and-jeremiah-til-death/static/js/2.95f1bf56.chunk.js",
     "static/js/2.95f1bf56.chunk.js.map": "/sasha-and-jeremiah-til-death/static/js/2.95f1bf56.chunk.js.map",
     "index.html": "/sasha-and-jeremiah-til-death/index.html",
-    "precache-manifest.caa6974a8942ee1fcdd2d1ed6b415e18.js": "/sasha-and-jeremiah-til-death/precache-manifest.caa6974a8942ee1fcdd2d1ed6b415e18.js",
+    "precache-manifest.91c02cd5f727b2c91d21c6d772539f04.js": "/sasha-and-jeremiah-til-death/precache-manifest.91c02cd5f727b2c91d21c6d772539f04.js",
     "service-worker.js": "/sasha-and-jeremiah-til-death/service-worker.js",
-    "static/css/main.38f3043c.chunk.css.map": "/sasha-and-jeremiah-til-death/static/css/main.38f3043c.chunk.css.map",
+    "static/css/main.64d25985.chunk.css.map": "/sasha-and-jeremiah-til-death/static/css/main.64d25985.chunk.css.map",
     "static/js/2.95f1bf56.chunk.js.LICENSE.txt": "/sasha-and-jeremiah-til-death/static/js/2.95f1bf56.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9922afd6.js",
     "static/js/2.95f1bf56.chunk.js",
-    "static/css/main.38f3043c.chunk.css",
-    "static/js/main.bd7fc85d.chunk.js"
+    "static/css/main.64d25985.chunk.css",
+    "static/js/main.87f66244.chunk.js"
   ]
 }
