@@ -1,5 +1,23 @@
+body {
+  background-color: #282c34;
+  color: #fefcd7;
+  font-family: "Open Sans", sans-serif;
+}
+.table {
+  color: #fefcd7;
+}
 .App {
   /* text-align: center; */
+  background-color: #282c34;
+}
+
+h1 {
+  font-family: "Goblin One", cursive;
+  padding: 3rem 0 1.5rem;
+}
+
+h3 {
+  padding: 1.5rem 0 0.75rem;
 }
 
 .App-logo {
@@ -21,7 +39,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {

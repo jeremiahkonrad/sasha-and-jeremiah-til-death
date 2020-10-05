@@ -49,6 +49,9 @@ function App() {
             <Route exact path="/">
               <header className="App-header">
                 <h1>Sasha and Jeremiah til Death</h1>
+                <h3>
+                  Ceremony at <strong>4:30 PM</strong> on October 31st, 2020
+                </h3>
                 <img
                   src={`${process.env.PUBLIC_URL}/invitation--cropped.png`}
                   alt=""
@@ -56,7 +59,12 @@ function App() {
               </header>
             </Route>
             <Route path="/our-story">
-              <p>Our Story</p>
+              <h1>Our Story</h1>
+              <p>
+                Growing up in opposite corners of the U.S. west coast, Sasha and
+                Jeremiah first met in sunny Santa Monica, CA.
+              </p>
+              <p>...more to come!</p>
             </Route>
             <Route path="/itinerary">
               <h1>Itinerary</h1>
@@ -173,6 +181,8 @@ function App() {
             <Route path="/location">
               <h1>Location</h1>
               <p>
+                <strong>Address:</strong>
+                <br />
                 3640 E 1st St
                 <br />
                 Long Beach, CA 90803
@@ -201,13 +211,12 @@ function App() {
                 absolutely must hand us a gift, here are some things we&apos;re
                 looking to get for us and the house:
               </p>
-              <p>
+              <h3>
                 <a href="http://www.etsy.com/registry/Mjk2MDQ2MjZ8NjM1NjM1NDU/">
                   Etsy
                 </a>
-                <br />
-                <sub>Size S/M for robes, no embroidery</sub>
-              </p>
+              </h3>
+              <sub>Size S/M for robes, no embroidery</sub>
             </Route>
           </Switch>
         </Container>
