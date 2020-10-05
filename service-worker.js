@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sasha-and-jeremiah-til-death/precache-manifest.b0ec42d5e8e8d99a06859322c71b45a0.js"
+  "/sasha-and-jeremiah-til-death/precache-manifest.caa6974a8942ee1fcdd2d1ed6b415e18.js"
 );
 
 self.addEventListener('message', (event) => {
