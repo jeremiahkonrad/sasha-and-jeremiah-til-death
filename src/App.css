@@ -53,3 +53,8 @@ h3 {
     transform: rotate(360deg);
   }
 }
+
+.costume-ideas img {
+  width: 100%;
+  margin-bottom: 1rem;
+}

@@ -1,5 +1,13 @@
 import React from "react";
-import { Navbar, Nav, NavDropdown, Container, Table } from "react-bootstrap";
+import {
+  Navbar,
+  Nav,
+  NavDropdown,
+  Container,
+  Table,
+  Row,
+  Col,
+} from "react-bootstrap";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 
@@ -121,6 +129,49 @@ function App() {
                 style, then cocktail attire will definitely get the job done. We
                 know you&apos;re gonna look great either way.
               </p>
+              <h3>Need Ideas?</h3>
+              <Row className="costume-ideas">
+                <Col>
+                  <img
+                    alt="breakfast at tiffany's"
+                    src={`${process.env.PUBLIC_URL}/costume-ideas/breakfast-at-tiffanys.png`}
+                  />
+                  <img
+                    alt="jackie-o"
+                    src={`${process.env.PUBLIC_URL}/costume-ideas/jackie-o.png`}
+                  />
+                  <img
+                    alt="wakanda-forever"
+                    src={`${process.env.PUBLIC_URL}/costume-ideas/wakanda-forever.png`}
+                  />
+                  <img
+                    alt="frida kahlo"
+                    src={`${process.env.PUBLIC_URL}/costume-ideas/frida-kahlo.png`}
+                  />
+                </Col>
+                <Col>
+                  <img
+                    alt="bey and jay"
+                    src={`${process.env.PUBLIC_URL}/costume-ideas/bey-and-jay.png`}
+                  />
+                  <img
+                    alt="rbg"
+                    src={`${process.env.PUBLIC_URL}/costume-ideas/rbg.png`}
+                  />
+                  <img
+                    alt="gatsby"
+                    src={`${process.env.PUBLIC_URL}/costume-ideas/gatsby.png`}
+                  />
+                  <img
+                    alt="queen elizabeth"
+                    src={`${process.env.PUBLIC_URL}/costume-ideas/queen-elizabeth.png`}
+                  />
+                  <img
+                    alt="mary-poppins"
+                    src={`${process.env.PUBLIC_URL}/costume-ideas/mary-poppins.png`}
+                  />
+                </Col>
+              </Row>
             </Route>
             <Route path="/menu">
               <h1>Menu</h1>
