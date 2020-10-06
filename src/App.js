@@ -30,9 +30,6 @@ function App() {
                 <NavDropdown.Item as={Link} to="/menu">
                   Menu
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/location">
-                  Location
-                </NavDropdown.Item>
                 {/* <NavDropdown.Divider /> */}
               </NavDropdown>
               <Nav.Link as={Link} to="/contact-us">
@@ -177,25 +174,6 @@ function App() {
                 <li>Wedding Cake</li>
                 <li>Baklava</li>
               </ul>
-            </Route>
-            <Route path="/location">
-              <h1>Location</h1>
-              <p>
-                <strong>Address:</strong>
-                <br />
-                3640 E 1st St
-                <br />
-                Long Beach, CA 90803
-              </p>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.9668617729253!2d-118.15169138479264!3d33.76152218068609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd3052e81635cd%3A0x45fb9d8e19d615ca!2s3640%20E%201st%20St%2C%20Long%20Beach%2C%20CA%2090803!5e0!3m2!1sen!2sus!4v1601935299623!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                frameborder="0"
-                allowfullscreen=""
-                ariaHidden="false"
-                tabindex="0"
-              ></iframe>
             </Route>
             <Route path="/contact-us">
               <h1>Contact Us</h1>
