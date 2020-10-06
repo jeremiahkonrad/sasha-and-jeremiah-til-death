@@ -1,11 +1,11 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown, Container, Table } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/">
       <div className="App">
         <Navbar bg="light" expand="lg">
           <Navbar.Brand as={Link} to="/">
