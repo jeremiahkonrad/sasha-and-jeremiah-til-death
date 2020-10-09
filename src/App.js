@@ -58,6 +58,7 @@ function App() {
                   Ceremony at <strong>4:30 PM</strong> on October 31st, 2020
                 </h3>
                 <img
+                  className="invitation-image"
                   src={`${process.env.PUBLIC_URL}/invitation--cropped.png`}
                   alt=""
                 />
