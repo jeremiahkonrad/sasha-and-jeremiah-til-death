@@ -246,6 +246,12 @@ function App() {
                 </a>
               </h3>
               <sub>Size S/M for robes, no embroidery</sub>
+              <br />
+              <br />
+              <p>
+                *We&apos;ll also have a place for cards at the ceremony if you
+                prefer.
+              </p>
             </Route>
           </Switch>
         </Container>
