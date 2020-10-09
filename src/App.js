@@ -65,11 +65,44 @@ function App() {
             </Route>
             <Route path="/our-story">
               <h1>Our Story</h1>
-              <p>
-                Growing up in opposite corners of the U.S. west coast, Sasha and
-                Jeremiah first met in sunny Santa Monica, CA.
-              </p>
-              <p>...more to come!</p>
+
+              <p>A bit about us&mdash;</p>
+              <Row className="our-story-pics">
+                <Col sm={12} md={6}>
+                  <img
+                    sm={12}
+                    md={6}
+                    src={`${process.env.PUBLIC_URL}/baking-in-budapest.jpg`}
+                  />
+                  <img src={`${process.env.PUBLIC_URL}/harry-potterrrr.jpg`} />
+                </Col>
+                <Col>
+                  <p>
+                    Growing up in opposite corners of the U.S. west coast, Sasha
+                    and Jeremiah happened to first meet at a startup in sunny
+                    Santa Monica. They&apos;d see each other from over the
+                    other&apos;s computer monitors from time to time.
+                    Interesting.
+                  </p>
+                  <p>
+                    One a Slytherin, the other Hufflepuff (you <em>might</em>{" "}
+                    know who&apos;s who) they found that they 1) shared common
+                    experiences with some challenges in life, but, more
+                    importantly, 2) celebrated overcoming those challenges as a
+                    team, and being close with their families.
+                  </p>
+                  <p>
+                    They both love animals, sustainability, travel, DIY
+                    projects, and eating fun food. And a coffee/wine/beer when
+                    the time is right 🍻
+                  </p>
+                  <p>
+                    If you&apos;re reading this, you are in Sasha and
+                    Jeremiah&apos;s circle, and they are so thankful for your
+                    place in their life together!
+                  </p>
+                </Col>
+              </Row>
             </Route>
             <Route path="/itinerary">
               <h1>Itinerary</h1>
